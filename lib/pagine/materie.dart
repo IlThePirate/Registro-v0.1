@@ -29,120 +29,21 @@ class _MateriePageState extends State<MateriePage> {
             minVerticalPadding: 14,
             leading: Icon(
               size: 30,
-              Icons.brush,
-              color: Colors.green[600],
-              ),
-            title: Text(
-              "Arte",
-              style: TextStyle(
-                fontSize: 30,
-                fontWeight: FontWeight.bold
-              ),
-              ),
-            trailing: Icon(
-              size: 30,
-              Icons.arrow_forward_ios_outlined
-              ),
-            onTap: () {
-              Navigator.push(
-                context, 
-                MaterialPageRoute(
-                  builder: (context) => const ArtePage()
-                )
-              );
-            },
-          ),
-          Divider(
-            thickness: 2.5,
-            endIndent: 200,
-            radius: BorderRadius.circular(2),
-            color: Colors.blueGrey [700],
-            ),
-          ListTile(
-            minVerticalPadding: 14,
-            leading: Icon(
-              size: 30,
-              Icons.grade,
-              color: Colors.green[600],
-              ),
-            title: Text(
-              "Educazione Civica",
-              style: TextStyle(
-                fontSize: 30,
-                fontWeight: FontWeight.bold
-              ),
-              ),
-            trailing: Icon(
-              size: 30,
-              Icons.arrow_forward_ios_outlined
-              ),
-             onTap: () {
-              Navigator.push(
-                context, 
-                MaterialPageRoute(
-                  builder: (context) => const EducazioneCivicaPage()
-                )
-              );
-            },
-          ),
-          Divider(
-            thickness: 2.5,
-            endIndent: 200,
-            radius: BorderRadius.circular(2),
-            color: Colors.blueGrey [700],
-            ),
-          ListTile(
-            minVerticalPadding: 14,
-            leading: Icon(
-              size: 30,
-              Icons.track_changes,
-              color: Colors.green[600],
-              ),
-            title: Text(
-              "Motoria",
-              style: TextStyle(
-                fontSize: 30,
-                fontWeight: FontWeight.bold
-              ),
-              ),
-            trailing: Icon(
-              size: 30,
-              Icons.arrow_forward_ios_outlined
-              ),
-            onTap: () {
-              Navigator.push(
-                context, 
-                MaterialPageRoute(
-                  builder: (context) => const MotoriaPage()
-                )
-              );
-            },
-          ),
-          Divider(
-            thickness: 2.5,
-            endIndent: 200,
-            radius: BorderRadius.circular(2),
-            color: Colors.blueGrey [700],
-            ),
-          ListTile(
-            minVerticalPadding: 14,
-            leading: Icon(
-              size: 30,
               Icons.calculate,
               color: Colors.red[800],
-              ),
+            ),
             title: Text(
               "Matematica",
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold
               ),
-              ),
+            ),
             trailing: Icon(
               size: 30,
               Icons.arrow_forward_ios_outlined
-              ),
-             onTap: () {
+            ),
+            onTap: () {
               Navigator.push(
                 context, 
                 MaterialPageRoute(
@@ -156,25 +57,25 @@ class _MateriePageState extends State<MateriePage> {
             endIndent: 200,
             radius: BorderRadius.circular(2),
             color: Colors.blueGrey [700],
-            ),
+          ),
           ListTile(
             minVerticalPadding: 14,
             leading: Icon(
               size: 30,
               Icons.calculate,
               color: Colors.red[800],
-              ),
+            ),
             title: Text(
               "Fisica",
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold
               ),
-              ),
+            ),
             trailing: Icon(
               size: 30,
               Icons.arrow_forward_ios_outlined
-              ),
+            ),
             onTap: () {
               Navigator.push(
                 context, 
@@ -189,25 +90,25 @@ class _MateriePageState extends State<MateriePage> {
             endIndent: 200,
             radius: BorderRadius.circular(2),
             color: Colors.blueGrey [700],
-            ),
+          ),
           ListTile(
             minVerticalPadding: 14,
             leading: Icon(
               size: 30,
               Icons.calculate,
               color: Colors.red[800],
-              ),
+            ),
             title: Text(
               "Scienze",
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold
               ),
-              ),
+            ),
             trailing: Icon(
               size: 30,
               Icons.arrow_forward_ios_outlined
-              ),
+            ),
             onTap: () {
               Navigator.push(
                 context, 
@@ -222,26 +123,26 @@ class _MateriePageState extends State<MateriePage> {
             endIndent: 200,
             radius: BorderRadius.circular(2),
             color: Colors.blueGrey [700],
-            ),
+          ),
           ListTile(
             minVerticalPadding: 14,
             leading: Icon(
               size: 30,
               Icons.library_books,
               color: Colors.yellow,
-              ),
+            ),
             title: Text(
               "Italiano",
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold
               ),
-              ),
+            ),
             trailing: Icon(
               size: 30,
               Icons.arrow_forward_ios_outlined
-              ),
-             onTap: () {
+            ),
+            onTap: () {
               Navigator.push(
                 context, 
                 MaterialPageRoute(
@@ -255,25 +156,25 @@ class _MateriePageState extends State<MateriePage> {
             endIndent: 200,
             radius: BorderRadius.circular(2),
             color: Colors.blueGrey [700],
-            ),
+          ),
           ListTile(
             minVerticalPadding: 14,
             leading: Icon(
               size: 30,
               Icons.library_books,
               color: Colors.yellow,
-              ),
+            ),
             title: Text(
               "Latino",
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold
               ),
-              ),
+            ),
             trailing: Icon(
               size: 30,
               Icons.arrow_forward_ios_outlined
-              ),
+            ),
             onTap: () {
               Navigator.push(
                 context, 
@@ -288,26 +189,26 @@ class _MateriePageState extends State<MateriePage> {
             endIndent: 200,
             radius: BorderRadius.circular(2),
             color: Colors.blueGrey [700],
-            ),
+          ),
           ListTile(
             minVerticalPadding: 14,
             leading: Icon(
               size: 30,
               Icons.library_books,
               color: Colors.yellow,
-              ),
+            ),
             title: Text(
               "Inglese",
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold
               ),
-              ),
+            ),
             trailing: Icon(
               size: 30,
               Icons.arrow_forward_ios_outlined
-              ),
-             onTap: () {
+            ),
+            onTap: () {
               Navigator.push(
                 context, 
                 MaterialPageRoute(
@@ -321,25 +222,25 @@ class _MateriePageState extends State<MateriePage> {
             endIndent: 200,
             radius: BorderRadius.circular(2),
             color: Colors.blueGrey [700],
-            ),
+          ),
           ListTile(
             minVerticalPadding: 14,
             leading: Icon(
               size: 30,
               Icons.menu_book,
               color: Colors.blue[900],
-              ),
+            ),
             title: Text(
               "Storia",
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold
               ),
-              ),
+            ),
             trailing: Icon(
               size: 30,
               Icons.arrow_forward_ios_outlined
-              ),
+            ),
             onTap: () {
               Navigator.push(
                 context, 
@@ -354,30 +255,129 @@ class _MateriePageState extends State<MateriePage> {
             endIndent: 200,
             radius: BorderRadius.circular(2),
             color: Colors.blueGrey [700],
-            ),
+          ),
           ListTile(
             minVerticalPadding: 14,
             leading: Icon(
               size: 30,
               Icons.menu_book,
               color: Colors.blue[900],
-              ),
+            ),
             title: Text(
               "Filosofia",
               style: TextStyle(
                 fontSize: 30,
                 fontWeight: FontWeight.bold
               ),
-              ),
+            ),
             trailing: Icon(
               size: 30,
               Icons.arrow_forward_ios_outlined
-              ),
-             onTap: () {
+            ),
+            onTap: () {
               Navigator.push(
                 context, 
                 MaterialPageRoute(
                   builder: (context) => const FilosofiaPage()
+                )
+              );
+            },
+          ),
+          Divider(
+            thickness: 2.5,
+            endIndent: 200,
+            radius: BorderRadius.circular(2),
+            color: Colors.blueGrey [700],
+          ),
+          ListTile(
+            minVerticalPadding: 14,
+            leading: Icon(
+              size: 30,
+              Icons.brush,
+              color: Colors.green[600],
+            ),
+            title: Text(
+              "Arte",
+              style: TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.bold
+              ),
+            ),
+            trailing: Icon(
+              size: 30,
+              Icons.arrow_forward_ios_outlined
+            ),
+            onTap: () {
+              Navigator.push(
+                context, 
+                MaterialPageRoute(
+                  builder: (context) => const ArtePage()
+                )
+              );
+            },
+          ),
+          Divider(
+            thickness: 2.5,
+            endIndent: 200,
+            radius: BorderRadius.circular(2),
+            color: Colors.blueGrey [700],
+          ),
+          ListTile(
+            minVerticalPadding: 14,
+            leading: Icon(
+              size: 30,
+              Icons.track_changes,
+              color: Colors.green[600],
+            ),
+            title: Text(
+              "Motoria",
+              style: TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.bold
+              ),
+            ),
+            trailing: Icon(
+              size: 30,
+              Icons.arrow_forward_ios_outlined
+            ),
+            onTap: () {
+              Navigator.push(
+                context, 
+                MaterialPageRoute(
+                  builder: (context) => const MotoriaPage()
+                )
+              );
+            },
+          ),
+          Divider(
+            thickness: 2.5,
+            endIndent: 200,
+            radius: BorderRadius.circular(2),
+            color: Colors.blueGrey [700],
+          ),
+          ListTile(
+            minVerticalPadding: 14,
+            leading: Icon(
+              size: 30,
+              Icons.grade,
+              color: Colors.green[600],
+            ),
+            title: Text(
+              "Educazione Civica",
+              style: TextStyle(
+                fontSize: 30,
+                fontWeight: FontWeight.bold
+              ),
+            ),
+            trailing: Icon(
+              size: 30,
+              Icons.arrow_forward_ios_outlined
+              ),
+            onTap: () {
+              Navigator.push(
+                context, 
+                MaterialPageRoute(
+                  builder: (context) => const EducazioneCivicaPage()
                 )
               );
             },
