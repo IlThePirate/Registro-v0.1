@@ -16,20 +16,26 @@ class _HomePageState extends State<HomePage> {
     HomePageContent(),
     MediePage(),
   ];
-  final List<String> titoliAppBar = [
-  "━  Materie  ━━━━",
-  "━  Home  ━━━━",
-  "━  Medie  ━━━━",
+  final List titoliAppBar = [
+  Icon(Icons.school),
+  Icon(Icons.house),
+  Icon(Icons.show_chart),
+];
+  final List<String> iconeAppBar = [
+  "Materie",
+  "Home",
+  "Medie",
 ];
   int _indiceCorrente = 1;
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blueGrey[600],
       appBar: AppBar(
-        toolbarHeight: 80,
-        centerTitle: false,
-        backgroundColor: Colors.blueGrey[700],
+        toolbarHeight: 60,
+        centerTitle: true,
+        backgroundColor: Colors.blueGrey[300],
         title: Text(
           titoliAppBar[_indiceCorrente],
           style: TextStyle(
@@ -37,7 +43,7 @@ class _HomePageState extends State<HomePage> {
             fontSize: 40,
             fontWeight: FontWeight.bold
           ),
-          ),
+        ),
       ),
       body: pagine[_indiceCorrente],
       bottomNavigationBar: NavigationBar(
@@ -50,7 +56,7 @@ class _HomePageState extends State<HomePage> {
           setState(() {
             _indiceCorrente = nuovoindice;
           });
-        },),
+        }),
     );
   }
 }

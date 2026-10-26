@@ -410,7 +410,16 @@ class _ArtePageState extends State<ArtePage> {
                       Column(
                         children: [
                           Padding(
-                            padding: EdgeInsetsGeometry.fromLTRB(0, 46, 60, 0), ),
+                            padding: const EdgeInsetsGeometry.fromLTRB(0, 0, 0, 0),
+                            child: descrizioniArte[index].isEmpty ? null : Text(descrizioniArte[index],
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 18
+                              ),
+                            ),
+                          ),
+                          Padding(
+                            padding: const EdgeInsetsGeometry.fromLTRB(0, 0, 0, 0), ),
                           Text(
                             "${pesiArte[index]}%",
                             style: TextStyle(
@@ -421,13 +430,6 @@ class _ArtePageState extends State<ArtePage> {
                       ),
                     ],
                   ),
-                  subtitle: descrizioniArte[index].isEmpty ? null : Text(
-                    descrizioniArte[index], 
-                    style: TextStyle(
-                      height: 3,
-                      color: Colors.black,
-                    ),
-                  ),
                   trailing: Icon(
                     Icons.arrow_forward_ios,
                     size: 30,
@@ -437,10 +439,10 @@ class _ArtePageState extends State<ArtePage> {
                       context: context,
                       builder: (context) {
                         return AlertDialog(
-                          title: Text(
-                            "${descrizioniArte[index]}:",
+                          title: descrizioniArte[index].isEmpty ? null : Text("${descrizioniArte[index]}:",
                             style: TextStyle(
-                              fontSize: 20,
+                              fontSize: 25,
+                              fontWeight: FontWeight.bold,
                             ),
                           ),
                           content: Row(
